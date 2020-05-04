@@ -1,0 +1,29 @@
+{
+  "name": "RTW-chat_1",
+  "version": "0.0.1",
+  "description": "Chatroom with chatbot that collects quotes added by users",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "heroku": "^7.39.5",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.10",
+    "socket.io": "^2.3.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/deannabosschert/real-time-web-1920_chat/issues"
+  },
+  "homepage": "https://github.com/deannabosschert/real-time-web-1920_chat#readme",
+  "author": "Deanna Bosschert",
+  "license": "ISC"
+}
